@@ -1,0 +1,480 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Wistia</title>
+  <style type="text/css">
+    #outlook a {
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Arial', 'Helvetica', sans-serif;
+      background: white;
+      width: 100% !important;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+      padding-top: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-left: 0px;
+    }
+
+    .ExternalClass {
+      width: 100%;
+    }
+
+    .ExternalClass * {
+      line-height: 100%;
+    }
+
+    .ExternalClass,
+    .ExternalClass p,
+    .ExternalClass span,
+    .ExternalClass font,
+    .ExternalClass td,
+    .ExternalClass div {
+      line-height: 100%;
+    }
+
+    img {
+      outline: none;
+      text-decoration: none;
+      -ms-interpolation-mode: bicubic;
+    }
+
+    a img {
+      border: none;
+    }
+
+    .image-fix {
+      display: block;
+    }
+
+    .unsub-text {
+      mso-line-height-rule: exactly;
+      font-family: 'Arial', 'Helvetica', sans-serif;
+      font-size: 15px;
+      line-height: 15px;
+      font-weight: normal;
+      text-decoration: none;
+      color: #cbd0d6;
+    }
+
+    .unsub-text a {
+      text-decoration: none;
+      color: #cbd0d6;
+    }
+
+    .address-text {
+      mso-line-height-rule: exactly;
+      font-family: 'Arial', 'Helvetica', sans-serif;
+      font-size: 15px;
+      line-height: 15px;
+      font-weight: normal;
+      text-decoration: none;
+      color: #cbd0d6;
+    }
+
+    .address-text a {
+      text-decoration: none;
+      color: #cbd0d6;
+    }
+
+    @media only screen and (max-width: 480px) {
+
+      /*video blocks*/
+      table[class="content-table"] {
+        width: 320px !important;
+      }
+
+      table[class="mobile-frame"] {
+        width: 280px !important;
+      }
+
+      table[class="video-table"] {
+        width: 290px !important;
+      }
+
+      td[class="header-block-l"] {
+        padding-top: 10px !important;
+        padding-right: 0px !important;
+        padding-bottom: 0px !important;
+        padding-left: 0px !important;
+        display: block !important;
+        text-align: center !important;
+        width: 320px !important;
+      }
+
+      td[class="header-block-r"] {
+        padding-top: 0px !important;
+        padding-right: 0px !important;
+        padding-bottom: 20px !important;
+        padding-left: 0px !important;
+        display: block !important;
+        width: 320px !important;
+      }
+
+      td[class="hbr"] {
+        text-align: center !important;
+      }
+
+      td[class="top-video-image"] img {
+        width: 290px !important;
+      }
+
+      td[class="three-col-padding"] {
+        padding-top: 20px !important;
+        padding-right: 0px !important;
+        padding-bottom: 20px !important;
+        padding-left: 0px !important;
+      }
+
+      td[class="three-col-headline"] {
+        text-align: left !important;
+      }
+
+      td[class="three-col-description"] {
+        text-align: left !important;
+      }
+
+      td[class="three-col-cta"] {
+        text-align: left !important;
+      }
+
+      td[class="video-split-l"] {
+        padding-top: 0px !important;
+        padding-right: 0px !important;
+        padding-bottom: 0px !important;
+        padding-left: 0px !important;
+        display: block !important;
+      }
+
+      td[class="video-split-l"] img {
+        width: 275px !important;
+      }
+
+      td[class="video-split-m"] {
+        border-top: 1px solid #cbd0d6;
+        display: block !important;
+        padding-top: 20px !important;
+        padding-right: 0px !important;
+        padding-bottom: 0px !important;
+        padding-left: 0px !important;
+      }
+
+      td[class="video-split-m"] img {
+        width: 275px !important;
+      }
+
+      td[class="video-split-r"] {
+        display: block !important;
+        padding-top: 20px !important;
+        padding-right: 0px !important;
+        padding-bottom: 0px !important;
+        padding-left: 0px !important;
+        border-top: 1px solid #cbd0d6;
+      }
+
+      td[class="video-split-r"] img {
+        width: 275px !important;
+      }
+
+      table[class="two-col-width"] {
+        width: 320px !important;
+      }
+
+      td[class="two-col-split-l"] {
+        display: block !important;
+        padding-top: 20px !important;
+        padding-right: 0px !important;
+        padding-bottom: 0px !important;
+        padding-left: 0px !important;
+      }
+
+      td[class="two-col-split-r"] {
+        border-top: 1px solid #cbd0d6;
+        display: block !important;
+        padding-top: 20px !important;
+        padding-right: 0px !important;
+        padding-bottom: 0px !important;
+        padding-left: 0px !important;
+      }
+
+      td[class="footer-block-l"] {
+        display: block !important;
+        width: 320px !important;
+      }
+
+      td[class="footer-block-r"] {
+        padding-top: 30px !important;
+        padding-right: 0px !important;
+        padding-bottom: 0px !important;
+        padding-left: 0px !important;
+        display: block !important;
+        width: 320px !important;
+      }
+
+      td[class="company-name"] {
+        text-align: center !important;
+      }
+
+      td[class="address"] {
+        text-align: center !important;
+      }
+
+      td[class="edit"] {
+        text-align: center !important;
+      }
+
+      td[class="unsub"] {
+        text-align: center !important;
+      }
+
+      *[class="is-mobile"] {
+        display: block !important;
+        max-height: none !important;
+      }
+
+      *[class="is-desktop"] {
+        display: none;
+        max-height: 0px;
+        overflow: hidden;
+      }
+    }
+  </style>
+</head>
+
+<body style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: white; font-family: 'Arial', 'Helvetica', sans-serif; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px; width: 100%;">
+  <div class="litmus-builder-preview-text" style="display:none;font-size:1px;color:#333333;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">Add optional preview text here&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;</div>
+
+  <table role="presentation" bgcolor="#ffffff" width="100%" cellspacing="0" cellpadding="0" border="0" class="table-body" style="line-height: 100%; margin: 0; padding: 0; width: 100%;">
+    <tr>
+      <td align="center" style="border-collapse: collapse;">
+        <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" align="center" class="content-table">
+          <tr>
+            <td height="10" class="page-break" bgcolor="#ffffff" style="border-collapse: collapse; line-height: 10px; mso-line-height-rule: exactly;">
+              <br style="visibility: hidden;">
+            </td>
+          </tr>
+          <tr>
+            <td style="border-collapse: collapse;">
+              <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+                <tr>
+                  <td align="center" style="border-collapse: collapse;">
+                    <table role="presentation" width="580" border="0" cellspacing="0" cellpadding="0" class="content-table">
+                      <tr>
+                        <td width="150" valign="top" class="header-block-l" style="border-collapse: collapse; padding-bottom: 10px; padding-left: 15px; padding-right: 0px; padding-top: 10px;">
+                          <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                              <td align="left" style="border-collapse: collapse;" class="headerLogo">
+                                <!--CHANGEME AND DELETE THIS COMMENT--><a href="changeme" style="color: black; text-decoration: underline;"><img src="https://ci6.googleusercontent.com/proxy/cysqEOVM4FhxMfz80tjlAd_stO25xFwXrIKCnb9J-u8Ky7RR3w2VrlDaFRWaKFIC6ARkcKGVz3TgSIYUN4FW6tXHuAwNOBvCfadzbf_o_RG4bHcPwG7iL0o=s0-d-e1-ft#https://cdn.joinhoney.com/images/email/PayPal-Honey-Logo-FullColor.jpg" width="150" alt="" class="image-fix" style="-ms-interpolation-mode: bicubic; display: block; outline: none; text-decoration: none;"></a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td class="header-block-r" valign="middle" style="border-collapse: collapse; padding-bottom: 10px; padding-left: 0px; padding-right: 15px; padding-top: 10px;">
+                          <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                        <td align="right"  class="headerLogo">
+                            <a href="#" style="display: inline-block;">
+                                <img src="https://ci5.googleusercontent.com/proxy/IqD5FEm4aN4VluwEejcZ2dbI9quO3Q9fR3F68XVTHhBOxu_rQBLYcDq5LRdc0HfcKoPxAWqC14ExdzqcGgh9L3OfJYuJoc5Dmw=s0-d-e1-ft#https://cdn.joinhoney.com/images/email/header/Gold.png" alt="" width="16" style="display: block;">
+                            </a>
+                            <p style="display: inline-block;color: #000;">Gold Rewards
+                            <br>
+                                <strong>2990 Points</strong>
+                            </p>
+                        </td>
+                                
+                              </tr>
+                            </table>
+                          </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+              <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#f4f4f4">
+                <tr>
+                    <td style="width:600px;" align="center">
+                    	<img src="https://ci3.googleusercontent.com/proxy/Y_B-7uZOZTQ4lTBw9AAyLzhA6Om10wTkefXy1vjCc7Drx8kRtvLnlXb5CbTNqaj_x9QDif1jo9ynNM-QtWpBPTnssB_iWCsXFTUVhqWtdkbpIn7YvZtyw57Xh07PQ4iG9NG5xK_81XSgzQ=s0-d-e1-ft#https://cdn.joinhoney.com/images/email/newsletters/2022/06-june/Newsletter27-header.png" alt="" width="600" style="width:600px;">
+                    </td>
+                </tr>
+              </table>
+              <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#e8e8e8">
+                <tr>
+                  <td align="center" valign="top" class="two-col-padding" style="border-top: 1px solid #cbd0d6; border-collapse: collapse; padding-bottom: 35px; padding-left: 0px; padding-right: 0px; padding-top: 35px;">
+                    <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td align="center" valign="top" style="border-collapse: collapse; font-family: SuisseIntl,Helvetica,Arial,sans-serif; font-size: 16px; font-weight: bold; line-height: 24px; mso-line-height-rule: exactly; padding-bottom: 0px; padding-left: 40px; padding-right: 40px; padding-top: 0px; text-decoration: none;">
+                          <!--CHANGEME AND DELETE THIS COMMENT-->It's summer - time for BBQ's, outdoor dining, and pool parties. Save up to 30% off Le Creuset, Martha Stewart, Our Table, and more.
+                        </td>
+                      </tr>
+                    </table>
+                    <table role="presentation" width="560" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+
+                        <td align="center" valign="top" style="border-collapse: collapse; padding-bottom: 50px; padding-left: 0px; padding-right: 0px; padding-top: 35px;">
+                          <table role="presentation" width="275" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                              <td align="center" style="border-collapse: collapse;">
+
+                                <td align="center">
+                                    <a href="#" style="text-decoration: none;background-color: #cc4b06;padding:15px 40px;color: #fff;font-family: Helvetica,Arial,sans-serif;font-size: 16px;">Sizzling Summer Savings</a>
+                        </td>
+                      </tr>
+                     </table>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+              <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+                <tr>
+                  <td align="center" valign="top" style="border-bottom: 1px solid #cbd0d6; border-collapse: collapse; border-top: 1px solid #cbd0d6;padding: 50px 0px 50px 0">
+                      <table role="presentation" width="50%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" style="width:250px">
+                          <td align="center">
+                          	<img src="https://ci6.googleusercontent.com/proxy/mTJKMvY5RvASH1K6LrFoLUuI6w5e8HjxhdWMNRVXNsC_0YWnPMp3ktKgcCa7JfVp70wM-77ZWnv2brdcRLXdv1qfG7QPoUV6yZ4MgEEVzFR9PULzGfWclCwPblDYxgSm_IlVFeClKdc=s0-d-e1-ft#https://cdn.joinhoney.com/images/email/newsletters/2022/06-june/Newsletter27-img1.png" style="width:200px;display: block;">
+                          </td>
+                        <td align="left" style="padding: 0px 0px 19px">
+                            <p style="padding: 10px;font-size: 24px;">
+                                <strong>Grill Up Savings</strong>
+                            </p>
+                            <p style="    font-family: SuisseIntl,Helvetica,Arial,sans-serif;font-size: 14px;line-height: 18px;color: #616161;text-align: left;width:200px;padding: 5px 15px">Fire up your summer with these grilling essentials from Traeger, Masterbuilt,
+and Lodge. Plus, earn Cash Back.</p>
+                            <a href="#" style="margin:0px 20px;padding: 10px;text-decoration: none;color: #fff;background-color: #cc4b06">Up to 20% Off</a>
+                        </td>
+                      </table>
+                  </td>
+                </tr>
+              </table>
+              <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+<td align="center" valign="top" style="border-bottom: 1px solid #cbd0d6; border-collapse: collapse; border-top: 1px solid #ffffff;padding: 50px 0px 50px 0;background-color: #ffffff">
+                      <table role="presentation" width="50%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" style="width:250px;">
+                  <td align="left" style="padding: 0px 0px 19px;background-color: #ffffff">
+                        <p style="padding: 10px;font-size: 24px;">
+                            <strong>Dive Into Deals</strong>
+                        </p>
+                        <p style="    font-family: SuisseIntl,Helvetica,Arial,sans-serif;font-size: 14px;line-height: 18px;color: #616161;text-align: left;width:200px;padding: 5px 15px">Save big on pool and beach gear from Yeti, Sun Bum, Igloo, Intex, Billabong
+& more.</p>
+                        <a href="#" style="margin:0px 20px;padding: 10px;text-decoration: none;color: #fff;background-color: #cc4b06">Up to 25% Off</a>
+                    </td>
+                          <td align="center">
+                          	<img src="https://ci4.googleusercontent.com/proxy/-786AdlMIHicJQkuZ6oFN1AfZETFy38w3rxv2-hwI8BQLiSQ19hFJAjMY32w8IyCYUVDTYe1XcLWMtRQBypQhGBLfgm15Y-OkZs64_ad-kFeTnEU9pflw7O7qZkhMM-A6RWqb8Mx0a8=s0-d-e1-ft#https://cdn.joinhoney.com/images/email/newsletters/2022/06-june/Newsletter27-img2.png" style="width:200px;display: block;">
+                          </td>
+                      </table>
+                  </td>
+                </tr>
+                  <tr>
+                <td align="center" valign="top" style="border-bottom: 1px solid #cbd0d6; border-collapse: collapse; border-top: 1px solid #ffffff;padding: 50px 0px 50px 0;background-color: #ffffff">
+                  <table role="presentation" width="50%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" style="width:250px;">
+                                    <td align="center">
+                        <img src="https://ci4.googleusercontent.com/proxy/qycovX9DM7M53NN_8hYaCNgwjp-dbzzyYhm4C0QgE1bdQAp54CjzQbftI9ISvB-ZrqoNeHbYicWUQ-7Yne5yUBTR2QU9p7LTkrQz14ezpjKmiTaYj-qPoKa8puKcpoYvLm8Et3ub4G4=s0-d-e1-ft#https://cdn.joinhoney.com/images/email/newsletters/2022/06-june/Newsletter27-img3.png" style="width:200px;display: block;">
+                      </td>
+              <td align="left" style="padding: 0px 0px 19px;background-color: #ffffff">
+                    <p style="padding:10px;font-size: 24px;line-height: 30px">
+                        <strong>Make Your Garden Grow</strong>
+                    </p>
+                    <p style="    font-family: SuisseIntl,Helvetica,Arial,sans-serif;font-size: 14px;line-height: 18px;color: #616161;text-align: left;width:200px;padding: 5px 15px">Save big on pool and beach gear from Yeti, Sun Bum, Igloo, Intex, Billabong
+& more.</p>
+                    <a href="#" style="margin:0px 20px;padding: 10px;text-decoration: none;color: #fff;background-color: #cc4b06">Up to 25% Off</a>
+                </td>
+                  </table>
+              </td>
+                  </tr>
+              </table>
+            </td>
+          </tr>
+        <tr>
+            <td align="center" valign="top">
+                <table bgcolor="#ffffff" align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" style="width:185px;padding: 25px" width="185">
+                    <td align="center" valign="top" style="padding: 10px">
+                        <a href="#">
+                        	<img src="https://ci5.googleusercontent.com/proxy/iyILhFgIQRILYSK-OdYFppksP47mPBN8pJdW-nCq1ejnJON0fS0xlIkdVcnitRk6kNQpyCD67q6uhsm0xBCee11JOyl-DavVKGWwLPySoFSi7hgQysAzBueHpiVYeNfOkfMzn38pHHdTHZ4=s0-d-e1-ft#https://cdn.joinhoney.com/images/email/newsletters/2022/06-june/Newsletter27-under25.png" alt="" width="170">
+                        </a>
+                    </td>
+                    <td align="center" valign="top" style="padding: 10px">
+                        <a href="#">
+                        	<img src="https://ci5.googleusercontent.com/proxy/LGDmC_mNWlooVBlVMp1EIwApiw25eQ2bdWgCpOg3lLLRSfxMfCXZvbZtiNHBeeGI0yvsrkZWSPjsTRPRKt1NJg2CSvuqOa8HNhC6rIr2YkV4N0xG4SaODo4XAKSa8SI-rTkBKBSQANmqpa8=s0-d-e1-ft#https://cdn.joinhoney.com/images/email/newsletters/2022/06-june/Newsletter27-under50.png" alt="" width="170">
+                        </a>
+                    </td>
+                    <td align="center" valign="top" style="padding: 10px">
+                        <a href="#">
+                        	<img src="https://ci5.googleusercontent.com/proxy/zIh5DWaKKq7YIPrXz_XybpBqILYrvaxklkeJ5izXGHM_O4sMjrADuoMps-8N8WSa5j3oGqYOYhN_DE04DwIKkb9vrJRw8ViKVoOcBryzYKt-UwfzTmkWtT4WXDuOIEnzTF4JcfMo3AE-p_Mi=s0-d-e1-ft#https://cdn.joinhoney.com/images/email/newsletters/2022/06-june/Newsletter27-under100.png" alt="" width="170">
+                        </a>
+                    </td>
+                </table>
+            </td>
+        </tr>
+      <tr>
+          <td align="center" bgcolor="#FF5252" style="padding: 0px 20px;" valign="top";>
+          <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" width="100" style="width:500px;">
+              <p style="font-family: Pangea,Eina03,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-size: 24px;color: #fff;line-height: 30px;font-weight: bold;">Love shopping? Then you'll love this deal</p>
+          </table>
+          </td>
+      </tr>
+      <tr>
+          <td align="center" valign="top">
+          	<img src="https://ci4.googleusercontent.com/proxy/ESkUpfNGWZh-qIOrW1pcvOhAmVIgr_qWi_RizSzXYFlLub5EXRjwCb7dcNG_HM1bv2x3iNSZwrzQBXw1krP8RFTYFyYuGOFkG4xYaGapwgo4iSmVSrw-D3HoApQJKgyw7U9KFerDh8Bp1LshBQZgNg=s0-d-e1-ft#https://cdn.joinhoney.com/images/email/newsletters/2022/06-june/Newsletter27-erin-condren.png" alt="" style="width:100%">
+          </td>
+      </tr>
+      <tr>
+          <td align="center" valign="top" style="background-color: #ffffff;padding: 20px">
+                  <p style="font-size: 20px;font-weight: bolder">
+                      <strong>
+                        Get $10 Off Your First Purchase of $40+
+                      </strong>
+                  </p>
+              <p style="padding: 10px">
+              	Code: HONEY10
+              </p>
+              <a href="#" style="text-decoration: none;letter-spacing: 1px;background-color: #cc4b06;padding: 10px 20px;color: #fff">Shop Erin Condren</a>
+          </td>
+      </tr>
+      <tr>
+          <td align="center" valign="top">
+          	<img src="https://ci5.googleusercontent.com/proxy/Lqg9Ipr5XzVcbDoWBzeAAlFsoibem-6NSZvwXozsJeGjquZ0ZXFJxrlpt9Y7Hh69WpJQMFnDrFNEMNpKfa9sLBmJOfebvtTz7xbX5tlCSsDeek5YN7gcMAGhbYfHlAlduB6WENMg_wAczGH0G3s=s0-d-e1-ft#https://cdn.joinhoney.com/images/email/newsletters/2022/06-june/Newsletter27-easter-egg.png" alt="" width="100%" style="display: block">
+          </td>
+      </tr>
+      <tr>
+          <td align="center" valign="center" style="padding: 45px;background-color: #eeeeee">
+              <a href="#" style="text-decoration: none;color: #616161;font-weight: bold;padding: 0px 30px">Explore</a>
+              <a href="#" style="text-decoration: none;color: #616161;font-weight: bold;padding: 0px 30px">Droplist</a>
+              <a href="#" style="text-decoration: none;color: #616161;font-weight: bold;padding: 0px 30px">Gold Rewards</a>
+          </td>
+      </tr>
+      <tr>
+        <td align="center" valign="center" style="background-color: #eeeeee;padding: 0 0 40px">
+              <a href="#" style="text-decoration: none;padding: 0px 45px">
+              	<img src="https://ci3.googleusercontent.com/proxy/9sKqD7Xuli68yFqHHcGh7GyJGEXBT2vYuC34MoQGaCwIQNhNBuMJ7tMfWuMSw8BVyzgYGXcru4tkhhjZlYrLEHa2tGdDkUdjXxZvt6CODvF7G2MXZQ=s0-d-e1-ft#https://cdn.honey.io/images/email/welcome/welcome-social-fb@2x.png" width="24" style="display: inline-block">
+              </a>
+               <a href="#" style="text-decoration: none;padding: 0px 45px">
+               	<img src="https://ci3.googleusercontent.com/proxy/DdLeWLzlgQubhBsnAr0FOr4rbpZn795uB4lqTCSh1CQjiywRn7TTjGq_tAS2wzqeIoKGdFr0aezHxUfPI3f_ivVvxWSvu2hdMdS5L1zFj4sOG1eshwoBHMkAalo=s0-d-e1-ft#https://cdn.honey.io/images/email/welcome/welcome-social-instagram@2x.png" width="24" style="display: inline-block">
+               </a>
+               <a href="#" style="text-decoration: none;padding: 0px 45px">
+               	<img src="https://ci5.googleusercontent.com/proxy/XXwNenGW33tfiPHvYo2fkA-vobTX-zwBBY5I0CQuOT8b5PhvFU4S39YOsoFZN7l_dfI2CJv9oAZGrl_nhcTdyi7zh2C1WllOuuP_Wd5Bs3uV_oLE8TPtMBzgHas=s0-d-e1-ft#https://cdn.honey.io/images/email/welcome/welcome-social-pinterest@2x.png" width="24" style="display: inline-block">
+               </a>
+            <a href="#" style="text-decoration: none;padding: 0px 45px">
+            	<img src="https://ci5.googleusercontent.com/proxy/Qn5B7G3aVMCqzQqCr1xSSPD3gvX3n2On5i7-NFs6XoNmXh7OhCzVaPFxzuLeJMFy_GhC78G-nSfFxWZjRgPcwYneFSPzxcKNIYCB6DCqvG1juHtVR_arH7EE=s0-d-e1-ft#https://cdn.honey.io/images/email/welcome/welcome-social-twitter@2x.png" width="24" style="display: inline-block">
+            </a>
+          </td>
+      </tr>
+          <tr>
+            <td height="10" class="page-break" bgcolor="#ffffff" style="border-collapse: collapse; line-height: 10px; mso-line-height-rule: exactly;">
+              <br style="visibility: hidden;">
+            </td>
+          </tr>
+        </table>
+    </body>
+</html>
