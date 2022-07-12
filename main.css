@@ -1,0 +1,11 @@
+@media screen and max-width(599.98px){
+    .headerLogo{
+    	Margin:0 auto;
+    }
+}
+
+@media screen and max-width(399.98px){
+	    .headerLogo{
+    	Margin:0 auto;
+    }
+}
